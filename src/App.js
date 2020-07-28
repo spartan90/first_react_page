@@ -21,10 +21,7 @@ class LambdaDemo extends Component {
     const { loading, msg } = this.state
 
     return (
-      <p>
-        <br />
-        <span>{msg}</span>
-      </p>
+      
     )
   }
 }
@@ -36,7 +33,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Just wanted to say I Love you....
+            Welcome to the world of Block Chain.
           </p>
           <LambdaDemo />
         </header>
