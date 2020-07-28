@@ -21,7 +21,8 @@ class LambdaDemo extends Component {
     const { loading, msg } = this.state
 
     return (
-      
+      <br />
+        <span>{msg}</span>
     )
   }
 }
