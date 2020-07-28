@@ -21,8 +21,12 @@ class LambdaDemo extends Component {
     const { loading, msg } = this.state
 
     return (
-      <br />
+      <p>
+        <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
+        <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
+        <br />
         <span>{msg}</span>
+      </p>
     )
   }
 }
@@ -34,7 +38,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Welcome to the world of Block Chain.
+            Welcome to world of BlockChain.....
           </p>
           <LambdaDemo />
         </header>
